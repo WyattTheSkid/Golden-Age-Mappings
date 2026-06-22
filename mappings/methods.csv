@@ -4182,8 +4182,8 @@ func_149888_a,getSprite,2,Gets the sprite of this double plant block.
 func_149886_b,onMinedByPlayer,2,Called when this double plant block mined by player.
 func_149887_c,isBottomHalf,2,Checks if this double plant block is bottom half.
 func_149889_c,setVariant,2,Sets the variant of this double plant block.
-func_149890_d,getVariant,2,Gets the variant of this double plant block.
-func_149885_e,getVariant,2,Gets the variant of this double plant block.
+func_149890_d,getVariant,2,Gets the double plant variant type from the specified block metadata.
+func_149885_e,getVariant,2,Gets the variant of the double plant block at the specified position.
 func_150018_e,tryFall,2,Method to try fall on this dragon egg block.
 func_150019_m,tryTeleport,2,Method to try teleport on this dragon egg block.
 func_149810_a,decreaseLevel,2,Method to decrease level on this dynamic liquid block.

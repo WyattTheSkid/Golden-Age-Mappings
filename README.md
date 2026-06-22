@@ -507,8 +507,8 @@ This is a complete list of all mapped fields and methods for the funny block gam
 | --- | --- | --- |
 | `func_149855_e` | `checkAndDropBlock` | Method to check and drop block on this double plant block. |
 | `func_149888_a` | `getSprite` | Gets the sprite of this double plant block. |
-| `func_149890_d` | `getVariant` | Gets the variant of this double plant block. |
-| `func_149885_e` | `getVariant` | Gets the variant of this double plant block. |
+| `func_149890_d` | `getVariant` | Gets the double plant variant type from the specified block metadata. |
+| `func_149885_e` | `getVariant` | Gets the variant of the double plant block at the specified position. |
 | `func_149887_c` | `isBottomHalf` | Checks if this double plant block is bottom half. |
 | `func_149886_b` | `onMinedByPlayer` | Called when this double plant block mined by player. |
 | `func_149889_c` | `setVariant` | Sets the variant of this double plant block. |
