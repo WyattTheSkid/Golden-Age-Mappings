@@ -358,7 +358,7 @@ This is a complete list of all mapped fields and methods for the funny block gam
 ### Methods
 | Searge Name | Mapped Name | Description |
 | --- | --- | --- |
-| `func_149951_m` | `getInventory` | Gets the inventorY of this chest block. |
+| `func_149951_m` | `getInventory` | Gets the inventory of this chest block. |
 | `func_149954_e` | `initMetadata` | Method to init metadata on this chest block. |
 | `func_149952_n` | `isDoubleChest` | Checks if this chest block is double chest. |
 | `func_149953_o` | `isOcelotSittingOnTop` | Checks if this chest block is ocelot sitting on top. |
