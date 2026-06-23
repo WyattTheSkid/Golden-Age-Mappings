@@ -60,6 +60,295 @@ To use these mappings in a standalone Mod Coder Pack (MCP 908) workspace:
 4. If you have already decompiled, run `updatenames.bat` (Windows) or `./updatenames.sh` (Linux/macOS) to apply the new mapping names to your existing source code.
 
 
+
+# Custom Parameter Mappings
+
+In addition to fields and methods, these mappings include over 11,900 method and constructor parameters (such as coordinates, ticks, and UI variables).
+
+Below is a list of the custom constructor parameters that were manually resolved and mapped in this repository:
+
+| Parameter ID | Mapped Name | Class | Description |
+| --- | --- | --- | --- |
+| `p_152733_1_` | `par1` | `PreYggdrasilConverter` | Constructor parameter for `par1` in class `PreYggdrasilConverter`. |
+| `p_152743_1_` | `file` | `PreYggdrasilConverter` | Constructor parameter for `file` in class `PreYggdrasilConverter`. |
+| `p_152743_2_` | `par1` | `PreYggdrasilConverter` | Constructor parameter for `par1` in class `PreYggdrasilConverter`. |
+| `p_152743_3_` | `par1` | `PreYggdrasilConverter` | Constructor parameter for `par1` in class `PreYggdrasilConverter`. |
+| `p_152744_1_` | `gameProfile` | `PreYggdrasilConverter` | Constructor parameter for `gameProfile` in class `PreYggdrasilConverter`. |
+| `p_152786_1_` | `gameProfile` | `SkinManager` | Constructor parameter for `gameProfile` in class `SkinManager`. |
+| `p_i1014_1_` | `par1` | `IStream` | Constructor parameter for `par1` in class `IStream`. |
+| `p_i1014_2_` | `par2` | `IStream` | Constructor parameter for `par2` in class `IStream`. |
+| `p_i1015_1_` | `par1` | `GameSettings` | Constructor parameter for `par1` in class `GameSettings`. |
+| `p_i1015_2_` | `par2` | `GameSettings` | Constructor parameter for `par2` in class `GameSettings`. |
+| `p_i1025_1_` | `par1` | `BroadcastController` | Constructor parameter for `par1` in class `BroadcastController`. |
+| `p_i1025_2_` | `par2` | `BroadcastController` | Constructor parameter for `par2` in class `BroadcastController`. |
+| `p_i1053_1_` | `par1` | `ServerData` | Constructor parameter for `par1` in class `ServerData`. |
+| `p_i1053_2_` | `par2` | `ServerData` | Constructor parameter for `par2` in class `ServerData`. |
+| `p_i1066_1_` | `par1` | `GuiStreamUnavailable` | Constructor parameter for `par1` in class `GuiStreamUnavailable`. |
+| `p_i1066_2_` | `par2` | `GuiStreamUnavailable` | Constructor parameter for `par2` in class `GuiStreamUnavailable`. |
+| `p_i1067_1_` | `par1` | `GuiStreamUnavailable` | Constructor parameter for `par1` in class `GuiStreamUnavailable`. |
+| `p_i1067_2_` | `par2` | `GuiStreamUnavailable` | Constructor parameter for `par2` in class `GuiStreamUnavailable`. |
+| `p_i1357_1_` | `name` | `Util` | Constructor parameter for `name` in class `Util`. |
+| `p_i1357_2_` | `ordinal` | `Util` | Constructor parameter for `ordinal` in class `Util`. |
+| `p_i1581_1_` | `name` | `Entity` | Constructor parameter for `name` in class `Entity`. |
+| `p_i1581_2_` | `ordinal` | `Entity` | Constructor parameter for `ordinal` in class `Entity`. |
+| `p_i1598_1_` | `name` | `EntityPainting` | Constructor parameter for `name` in class `EntityPainting`. |
+| `p_i1598_2_` | `ordinal` | `EntityPainting` | Constructor parameter for `ordinal` in class `EntityPainting`. |
+| `p_i1751_1_` | `name` | `EntityPlayer` | Constructor parameter for `name` in class `EntityPlayer`. |
+| `p_i1751_2_` | `ordinal` | `EntityPlayer` | Constructor parameter for `ordinal` in class `EntityPlayer`. |
+| `p_i1827_1_` | `par1` | `ItemArmor` | Constructor parameter for `par1` in class `ItemArmor`. |
+| `p_i1827_2_` | `par2` | `ItemArmor` | Constructor parameter for `par2` in class `ItemArmor`. |
+| `p_i1874_1_` | `par1` | `Item` | Constructor parameter for `par1` in class `Item`. |
+| `p_i1874_2_` | `par2` | `Item` | Constructor parameter for `par2` in class `Item`. |
+| `p_i1956_1_` | `name` | `WorldSettings` | Constructor parameter for `name` in class `WorldSettings`. |
+| `p_i1956_2_` | `ordinal` | `WorldSettings` | Constructor parameter for `ordinal` in class `WorldSettings`. |
+| `p_i2086_1_` | `par1` | `StructureStrongholdPieces` | Constructor parameter for `par1` in class `StructureStrongholdPieces`. |
+| `p_i2086_2_` | `par2` | `StructureStrongholdPieces` | Constructor parameter for `par2` in class `StructureStrongholdPieces`. |
+| `p_i2302_1_` | `name` | `MovingObjectPosition` | Constructor parameter for `name` in class `MovingObjectPosition`. |
+| `p_i2302_2_` | `ordinal` | `MovingObjectPosition` | Constructor parameter for `ordinal` in class `MovingObjectPosition`. |
+| `p_i45004_1_` | `par1` | `GameSettings` | Constructor parameter for `par1` in class `GameSettings`. |
+| `p_i45004_2_` | `par2` | `GameSettings` | Constructor parameter for `par2` in class `GameSettings`. |
+| `p_i45005_1_` | `par1` | `GameSettings` | Constructor parameter for `par1` in class `GameSettings`. |
+| `p_i45005_2_` | `par2` | `GameSettings` | Constructor parameter for `par2` in class `GameSettings`. |
+| `p_i45090_1_` | `name` | `ShaderLoader` | Constructor parameter for `name` in class `ShaderLoader`. |
+| `p_i45090_2_` | `ordinal` | `ShaderLoader` | Constructor parameter for `ordinal` in class `ShaderLoader`. |
+| `p_i45109_1_` | `name` | `SoundList` | Constructor parameter for `name` in class `SoundList`. |
+| `p_i45109_2_` | `ordinal` | `SoundList` | Constructor parameter for `ordinal` in class `SoundList`. |
+| `p_i45110_1_` | `name` | `ISound` | Constructor parameter for `name` in class `ISound`. |
+| `p_i45110_2_` | `ordinal` | `ISound` | Constructor parameter for `ordinal` in class `ISound`. |
+| `p_i45111_1_` | `name` | `MusicTicker` | Constructor parameter for `name` in class `MusicTicker`. |
+| `p_i45111_2_` | `ordinal` | `MusicTicker` | Constructor parameter for `ordinal` in class `MusicTicker`. |
+| `p_i45155_1_` | `par1` | `ClickEvent` | Constructor parameter for `par1` in class `ClickEvent`. |
+| `p_i45155_2_` | `par2` | `ClickEvent` | Constructor parameter for `par2` in class `ClickEvent`. |
+| `p_i45157_1_` | `par1` | `HoverEvent` | Constructor parameter for `par1` in class `HoverEvent`. |
+| `p_i45157_2_` | `par2` | `HoverEvent` | Constructor parameter for `par2` in class `HoverEvent`. |
+| `p_i45241_1_` | `name` | `C16PacketClientStatus` | Constructor parameter for `name` in class `C16PacketClientStatus`. |
+| `p_i45241_2_` | `ordinal` | `C16PacketClientStatus` | Constructor parameter for `ordinal` in class `C16PacketClientStatus`. |
+| `p_i45250_1_` | `par1` | `C02PacketUseEntity` | Constructor parameter for `par1` in class `C02PacketUseEntity`. |
+| `p_i45250_2_` | `par2` | `C02PacketUseEntity` | Constructor parameter for `par2` in class `C02PacketUseEntity`. |
+| `p_i45297_1_` | `par1` | `NetHandlerLoginServer` | Constructor parameter for `par1` in class `NetHandlerLoginServer`. |
+| `p_i45297_2_` | `par2` | `NetHandlerLoginServer` | Constructor parameter for `par2` in class `NetHandlerLoginServer`. |
+| `p_i45323_1_` | `name` | `EntityPlayer` | Constructor parameter for `name` in class `EntityPlayer`. |
+| `p_i45323_2_` | `ordinal` | `EntityPlayer` | Constructor parameter for `ordinal` in class `EntityPlayer`. |
+| `p_i45336_1_` | `name` | `ItemFishFood` | Constructor parameter for `name` in class `ItemFishFood`. |
+| `p_i45336_2_` | `ordinal` | `ItemFishFood` | Constructor parameter for `ordinal` in class `ItemFishFood`. |
+| `p_i45337_1_` | `name` | `ItemFishFood` | Constructor parameter for `name` in class `ItemFishFood`. |
+| `p_i45337_2_` | `ordinal` | `ItemFishFood` | Constructor parameter for `ordinal` in class `ItemFishFood`. |
+| `p_i45372_1_` | `par1` | `BiomeGenBase` | Constructor parameter for `par1` in class `BiomeGenBase`. |
+| `p_i45372_2_` | `par2` | `BiomeGenBase` | Constructor parameter for `par2` in class `BiomeGenBase`. |
+| `p_i45417_1_` | `name` | `BlockPressurePlate` | Constructor parameter for `name` in class `BlockPressurePlate`. |
+| `p_i45417_2_` | `ordinal` | `BlockPressurePlate` | Constructor parameter for `ordinal` in class `BlockPressurePlate`. |
+| `p_i45473_1_` | `par1` | `GenLayerEdge` | Constructor parameter for `par1` in class `GenLayerEdge`. |
+| `p_i45473_2_` | `par2` | `GenLayerEdge` | Constructor parameter for `par2` in class `GenLayerEdge`. |
+| `p_i46311_1_` | `parentScreen` | `GuiStreamUnavailable` | Constructor parameter assigned to field `parentScreen` in class `GuiStreamUnavailable`. |
+| `p_i46311_2_` | `reason` | `GuiStreamUnavailable` | Constructor parameter assigned to field `reason` in class `GuiStreamUnavailable`. |
+| `p_i46311_3_` | `errorDetails` | `GuiStreamUnavailable` | Constructor parameter assigned to field `errorDetails` in class `GuiStreamUnavailable`. |
+| `p_i46312_1_` | `parent` | `GuiIngestServers` | Constructor parameter assigned to field `parent` in class `GuiIngestServers`. |
+| `p_i46313_2_` | `slot` | `GuiContainerCreative` | Constructor parameter assigned to field `slot` in class `GuiContainerCreative`. |
+| `p_i46313_3_` | `index` | `GuiContainerCreative` | Constructor parameter for `index` in class `GuiContainerCreative`. |
+| `p_i46314_1_` | `mc` | `CreativeCrafting` | Constructor parameter assigned to field `mc` in class `CreativeCrafting`. |
+| `p_i46315_1_` | `upperChestInventory` | `GuiChest` | Constructor parameter assigned to field `upperChestInventory` in class `GuiChest`. |
+| `p_i46315_2_` | `lowerChestInventory` | `GuiChest` | Constructor parameter assigned to field `lowerChestInventory` in class `GuiChest`. |
+| `p_i46316_1_` | `buttonId` | `GuiScreenBook` | Constructor parameter for `buttonId` in class `GuiScreenBook`. |
+| `p_i46316_2_` | `x` | `GuiScreenBook` | Constructor parameter for `x` in class `GuiScreenBook`. |
+| `p_i46316_3_` | `y` | `GuiScreenBook` | Constructor parameter for `y` in class `GuiScreenBook`. |
+| `p_i46316_4_` | `isForward` | `GuiScreenBook` | Constructor parameter assigned to field `isForward` in class `GuiScreenBook`. |
+| `p_i46317_1_` | `parentScreen` | `GuiRenameWorld` | Constructor parameter assigned to field `parentScreen` in class `GuiRenameWorld`. |
+| `p_i46317_2_` | `saveName` | `GuiRenameWorld` | Constructor parameter assigned to field `saveName` in class `GuiRenameWorld`. |
+| `p_i46319_1_` | `title` | `GuiErrorScreen` | Constructor parameter assigned to field `title` in class `GuiErrorScreen`. |
+| `p_i46319_2_` | `message` | `GuiErrorScreen` | Constructor parameter assigned to field `message` in class `GuiErrorScreen`. |
+| `p_i46320_1_` | `parentScreen` | `GuiCreateWorld` | Constructor parameter assigned to field `parentScreen` in class `GuiCreateWorld`. |
+| `p_i46321_1_` | `button` | `GuiButtonRealmsProxy` | Constructor parameter assigned to field `realmsButton` in class `GuiButtonRealmsProxy`. |
+| `p_i46321_2_` | `buttonId` | `GuiButtonRealmsProxy` | Constructor parameter for `buttonId` in class `GuiButtonRealmsProxy`. |
+| `p_i46321_3_` | `x` | `GuiButtonRealmsProxy` | Constructor parameter for `x` in class `GuiButtonRealmsProxy`. |
+| `p_i46321_4_` | `y` | `GuiButtonRealmsProxy` | Constructor parameter for `y` in class `GuiButtonRealmsProxy`. |
+| `p_i46321_5_` | `text` | `GuiButtonRealmsProxy` | Constructor parameter for `text` in class `GuiButtonRealmsProxy`. |
+| `p_i46322_1_` | `mc` | `GuiStreamIndicator` | Constructor parameter assigned to field `mc` in class `GuiStreamIndicator`. |
+| `p_i46323_1_` | `id` | `GuiButton` | Constructor parameter assigned to field `id` in class `GuiButton`. |
+| `p_i46323_2_` | `xPosition` | `GuiButton` | Constructor parameter assigned to field `xPosition` in class `GuiButton`. |
+| `p_i46323_3_` | `yPosition` | `GuiButton` | Constructor parameter assigned to field `yPosition` in class `GuiButton`. |
+| `p_i46323_4_` | `width` | `GuiButton` | Constructor parameter assigned to field `width` in class `GuiButton`. |
+| `p_i46323_5_` | `height` | `GuiButton` | Constructor parameter assigned to field `height` in class `GuiButton`. |
+| `p_i46323_6_` | `displayString` | `GuiButton` | Constructor parameter assigned to field `displayString` in class `GuiButton`. |
+| `p_i46324_1_` | `mc` | `ScaledResolution` | Constructor parameter for `mc` in class `ScaledResolution`. |
+| `p_i46324_2_` | `scaledWidth` | `ScaledResolution` | Constructor parameter assigned to field `scaledWidth` in class `ScaledResolution`. |
+| `p_i46324_3_` | `scaledHeight` | `ScaledResolution` | Constructor parameter assigned to field `scaledHeight` in class `ScaledResolution`. |
+| `p_i46326_1_` | `mc` | `GameSettings` | Constructor parameter assigned to field `mc` in class `GameSettings`. |
+| `p_i46326_2_` | `file` | `GameSettings` | Constructor parameter for `file` in class `GameSettings`. |
+| `p_i46327_1_` | `par1` | `Achievement` | Constructor parameter for `par1` in class `Achievement`. |
+| `p_i46327_2_` | `par2` | `Achievement` | Constructor parameter for `par2` in class `Achievement`. |
+| `p_i46327_3_` | `par3` | `Achievement` | Constructor parameter for `par3` in class `Achievement`. |
+| `p_i46327_4_` | `par4` | `Achievement` | Constructor parameter for `par4` in class `Achievement`. |
+| `p_i46327_5_` | `item` | `Achievement` | Constructor parameter for `item` in class `Achievement`. |
+| `p_i46327_6_` | `achievement` | `Achievement` | Constructor parameter for `achievement` in class `Achievement`. |
+| `p_i46328_1_` | `gameProfile` | `UserListOpsEntry` | Constructor parameter for `gameProfile` in class `UserListOpsEntry`. |
+| `p_i46328_2_` | `permissionLevel` | `UserListOpsEntry` | Constructor parameter assigned to field `permissionLevel` in class `UserListOpsEntry`. |
+| `p_i46330_1_` | `par1` | `IPBanEntry` | Constructor parameter for `par1` in class `IPBanEntry`. |
+| `p_i46331_1_` | `jsonObject` | `IPBanEntry` | Constructor parameter for `jsonObject` in class `IPBanEntry`. |
+| `p_i46332_2_` | `par2` | `PlayerProfileCache` | Constructor parameter for `par2` in class `PlayerProfileCache`. |
+| `p_i46333_2_` | `gameProfile` | `PlayerProfileCache` | Constructor parameter assigned to field `gameProfile` in class `PlayerProfileCache`. |
+| `p_i46333_3_` | `expirationDate` | `PlayerProfileCache` | Constructor parameter assigned to field `expirationDate` in class `PlayerProfileCache`. |
+| `p_i46334_1_` | `object` | `BanEntry` | Constructor parameter for `object` in class `BanEntry`. |
+| `p_i46334_2_` | `banStartDate` | `BanEntry` | Constructor parameter assigned to field `banStartDate` in class `BanEntry`. |
+| `p_i46334_3_` | `bannedBy` | `BanEntry` | Constructor parameter assigned to field `bannedBy` in class `BanEntry`. |
+| `p_i46334_4_` | `banEndDate` | `BanEntry` | Constructor parameter assigned to field `banEndDate` in class `BanEntry`. |
+| `p_i46334_5_` | `reason` | `BanEntry` | Constructor parameter assigned to field `reason` in class `BanEntry`. |
+| `p_i46335_1_` | `entityId` | `S19PacketEntityStatus` | Constructor parameter assigned to field `entityId` in class `S19PacketEntityStatus`. |
+| `p_i46335_2_` | `logicOpcode` | `S19PacketEntityStatus` | Constructor parameter assigned to field `logicOpcode` in class `S19PacketEntityStatus`. |
+| `p_i46336_1_` | `reason` | `S40PacketDisconnect` | Constructor parameter assigned to field `reason` in class `S40PacketDisconnect`. |
+| `p_i46342_1_` | `spaceAllocated` | `NBTSizeTracker` | Constructor parameter assigned to field `spaceAllocated` in class `NBTSizeTracker`. |
+| `p_i46345_1_` | `name` | `Metadata` | Constructor parameter assigned to field `name` in class `Metadata`. |
+| `p_i46345_2_` | `description` | `Metadata` | Constructor parameter assigned to field `description` in class `Metadata`. |
+| `p_i46346_1_` | `mapAssets` | `DefaultResourcePack` | Constructor parameter assigned to field `mapAssets` in class `DefaultResourcePack`. |
+| `p_i46347_10_` | `par10` | `EntitySmokeFX` | Constructor parameter for `par10` in class `EntitySmokeFX`. |
+| `p_i46347_12_` | `par12` | `EntitySmokeFX` | Constructor parameter for `par12` in class `EntitySmokeFX`. |
+| `p_i46347_1_` | `world` | `EntitySmokeFX` | Constructor parameter for `world` in class `EntitySmokeFX`. |
+| `p_i46347_2_` | `par2` | `EntitySmokeFX` | Constructor parameter for `par2` in class `EntitySmokeFX`. |
+| `p_i46347_4_` | `par4` | `EntitySmokeFX` | Constructor parameter for `par4` in class `EntitySmokeFX`. |
+| `p_i46347_6_` | `par6` | `EntitySmokeFX` | Constructor parameter for `par6` in class `EntitySmokeFX`. |
+| `p_i46347_8_` | `par8` | `EntitySmokeFX` | Constructor parameter for `par8` in class `EntitySmokeFX`. |
+| `p_i46348_10_` | `par10` | `EntitySmokeFX` | Constructor parameter for `par10` in class `EntitySmokeFX`. |
+| `p_i46348_12_` | `par12` | `EntitySmokeFX` | Constructor parameter for `par12` in class `EntitySmokeFX`. |
+| `p_i46348_14_` | `par14` | `EntitySmokeFX` | Constructor parameter for `par14` in class `EntitySmokeFX`. |
+| `p_i46348_1_` | `world` | `EntitySmokeFX` | Constructor parameter for `world` in class `EntitySmokeFX`. |
+| `p_i46348_2_` | `par2` | `EntitySmokeFX` | Constructor parameter for `par2` in class `EntitySmokeFX`. |
+| `p_i46348_4_` | `par4` | `EntitySmokeFX` | Constructor parameter for `par4` in class `EntitySmokeFX`. |
+| `p_i46348_6_` | `par6` | `EntitySmokeFX` | Constructor parameter for `par6` in class `EntitySmokeFX`. |
+| `p_i46348_8_` | `par8` | `EntitySmokeFX` | Constructor parameter for `par8` in class `EntitySmokeFX`. |
+| `p_i46349_10_` | `par10` | `EntityReddustFX` | Constructor parameter for `par10` in class `EntityReddustFX`. |
+| `p_i46349_1_` | `world` | `EntityReddustFX` | Constructor parameter for `world` in class `EntityReddustFX`. |
+| `p_i46349_2_` | `par2` | `EntityReddustFX` | Constructor parameter for `par2` in class `EntityReddustFX`. |
+| `p_i46349_4_` | `par4` | `EntityReddustFX` | Constructor parameter for `par4` in class `EntityReddustFX`. |
+| `p_i46349_6_` | `par6` | `EntityReddustFX` | Constructor parameter for `par6` in class `EntityReddustFX`. |
+| `p_i46349_8_` | `par8` | `EntityReddustFX` | Constructor parameter for `par8` in class `EntityReddustFX`. |
+| `p_i46349_9_` | `par9` | `EntityReddustFX` | Constructor parameter for `par9` in class `EntityReddustFX`. |
+| `p_i46350_10_` | `par10` | `EntityReddustFX` | Constructor parameter for `par10` in class `EntityReddustFX`. |
+| `p_i46350_11_` | `par11` | `EntityReddustFX` | Constructor parameter for `par11` in class `EntityReddustFX`. |
+| `p_i46350_1_` | `world` | `EntityReddustFX` | Constructor parameter for `world` in class `EntityReddustFX`. |
+| `p_i46350_2_` | `par2` | `EntityReddustFX` | Constructor parameter for `par2` in class `EntityReddustFX`. |
+| `p_i46350_4_` | `par4` | `EntityReddustFX` | Constructor parameter for `par4` in class `EntityReddustFX`. |
+| `p_i46350_6_` | `par6` | `EntityReddustFX` | Constructor parameter for `par6` in class `EntityReddustFX`. |
+| `p_i46350_8_` | `par8` | `EntityReddustFX` | Constructor parameter for `par8` in class `EntityReddustFX`. |
+| `p_i46350_9_` | `par9` | `EntityReddustFX` | Constructor parameter for `par9` in class `EntityReddustFX`. |
+| `p_i46351_10_` | `motionY` | `EntityPortalFX` | Constructor parameter assigned to field `motionY` in class `EntityPortalFX`. |
+| `p_i46351_12_` | `motionZ` | `EntityPortalFX` | Constructor parameter assigned to field `motionZ` in class `EntityPortalFX`. |
+| `p_i46351_1_` | `world` | `EntityPortalFX` | Constructor parameter for `world` in class `EntityPortalFX`. |
+| `p_i46351_2_` | `posX` | `EntityPortalFX` | Constructor parameter assigned to field `posX` in class `EntityPortalFX`. |
+| `p_i46351_4_` | `posY` | `EntityPortalFX` | Constructor parameter assigned to field `posY` in class `EntityPortalFX`. |
+| `p_i46351_6_` | `posZ` | `EntityPortalFX` | Constructor parameter assigned to field `posZ` in class `EntityPortalFX`. |
+| `p_i46351_8_` | `motionX` | `EntityPortalFX` | Constructor parameter assigned to field `motionX` in class `EntityPortalFX`. |
+| `p_i46352_1_` | `world` | `EntityFX` | Constructor parameter for `world` in class `EntityFX`. |
+| `p_i46352_2_` | `lastTickPosX` | `EntityFX` | Constructor parameter assigned to field `lastTickPosX` in class `EntityFX`. |
+| `p_i46352_4_` | `lastTickPosY` | `EntityFX` | Constructor parameter assigned to field `lastTickPosY` in class `EntityFX`. |
+| `p_i46352_6_` | `lastTickPosZ` | `EntityFX` | Constructor parameter assigned to field `lastTickPosZ` in class `EntityFX`. |
+| `p_i46353_10_` | `par10` | `EntityNoteFX` | Constructor parameter for `par10` in class `EntityNoteFX`. |
+| `p_i46353_12_` | `par12` | `EntityNoteFX` | Constructor parameter for `par12` in class `EntityNoteFX`. |
+| `p_i46353_1_` | `world` | `EntityNoteFX` | Constructor parameter for `world` in class `EntityNoteFX`. |
+| `p_i46353_2_` | `par2` | `EntityNoteFX` | Constructor parameter for `par2` in class `EntityNoteFX`. |
+| `p_i46353_4_` | `par4` | `EntityNoteFX` | Constructor parameter for `par4` in class `EntityNoteFX`. |
+| `p_i46353_6_` | `par6` | `EntityNoteFX` | Constructor parameter for `par6` in class `EntityNoteFX`. |
+| `p_i46353_8_` | `par8` | `EntityNoteFX` | Constructor parameter for `par8` in class `EntityNoteFX`. |
+| `p_i46354_10_` | `par10` | `EntityHeartFX` | Constructor parameter for `par10` in class `EntityHeartFX`. |
+| `p_i46354_12_` | `par12` | `EntityHeartFX` | Constructor parameter for `par12` in class `EntityHeartFX`. |
+| `p_i46354_14_` | `par14` | `EntityHeartFX` | Constructor parameter for `par14` in class `EntityHeartFX`. |
+| `p_i46354_1_` | `world` | `EntityHeartFX` | Constructor parameter for `world` in class `EntityHeartFX`. |
+| `p_i46354_2_` | `par2` | `EntityHeartFX` | Constructor parameter for `par2` in class `EntityHeartFX`. |
+| `p_i46354_4_` | `par4` | `EntityHeartFX` | Constructor parameter for `par4` in class `EntityHeartFX`. |
+| `p_i46354_6_` | `par6` | `EntityHeartFX` | Constructor parameter for `par6` in class `EntityHeartFX`. |
+| `p_i46354_8_` | `par8` | `EntityHeartFX` | Constructor parameter for `par8` in class `EntityHeartFX`. |
+| `p_i46355_10_` | `motionY` | `EntityFireworkStarterFX` | Constructor parameter assigned to field `motionY` in class `EntityFireworkStarterFX`. |
+| `p_i46355_12_` | `motionZ` | `EntityFireworkStarterFX` | Constructor parameter assigned to field `motionZ` in class `EntityFireworkStarterFX`. |
+| `p_i46355_14_` | `effectRenderer` | `EntityFireworkStarterFX` | Constructor parameter assigned to field `effectRenderer` in class `EntityFireworkStarterFX`. |
+| `p_i46355_15_` | `fireworkExplosions` | `EntityFireworkStarterFX` | Constructor parameter assigned to field `fireworkExplosions` in class `EntityFireworkStarterFX`. |
+| `p_i46355_1_` | `world` | `EntityFireworkStarterFX` | Constructor parameter for `world` in class `EntityFireworkStarterFX`. |
+| `p_i46355_2_` | `par2` | `EntityFireworkStarterFX` | Constructor parameter for `par2` in class `EntityFireworkStarterFX`. |
+| `p_i46355_4_` | `par4` | `EntityFireworkStarterFX` | Constructor parameter for `par4` in class `EntityFireworkStarterFX`. |
+| `p_i46355_6_` | `par6` | `EntityFireworkStarterFX` | Constructor parameter for `par6` in class `EntityFireworkStarterFX`. |
+| `p_i46355_8_` | `motionX` | `EntityFireworkStarterFX` | Constructor parameter assigned to field `motionX` in class `EntityFireworkStarterFX`. |
+| `p_i46356_10_` | `motionY` | `EntityFireworkSparkFX` | Constructor parameter assigned to field `motionY` in class `EntityFireworkSparkFX`. |
+| `p_i46356_12_` | `motionZ` | `EntityFireworkSparkFX` | Constructor parameter assigned to field `motionZ` in class `EntityFireworkSparkFX`. |
+| `p_i46356_14_` | `effectRenderer` | `EntityFireworkSparkFX` | Constructor parameter assigned to field `effectRenderer` in class `EntityFireworkSparkFX`. |
+| `p_i46356_1_` | `world` | `EntityFireworkSparkFX` | Constructor parameter for `world` in class `EntityFireworkSparkFX`. |
+| `p_i46356_2_` | `par2` | `EntityFireworkSparkFX` | Constructor parameter for `par2` in class `EntityFireworkSparkFX`. |
+| `p_i46356_4_` | `par4` | `EntityFireworkSparkFX` | Constructor parameter for `par4` in class `EntityFireworkSparkFX`. |
+| `p_i46356_6_` | `par6` | `EntityFireworkSparkFX` | Constructor parameter for `par6` in class `EntityFireworkSparkFX`. |
+| `p_i46356_8_` | `motionX` | `EntityFireworkSparkFX` | Constructor parameter assigned to field `motionX` in class `EntityFireworkSparkFX`. |
+| `p_i46357_1_` | `world` | `EntityFireworkOverlayFX` | Constructor parameter for `world` in class `EntityFireworkOverlayFX`. |
+| `p_i46357_2_` | `par2` | `EntityFireworkOverlayFX` | Constructor parameter for `par2` in class `EntityFireworkOverlayFX`. |
+| `p_i46357_4_` | `par4` | `EntityFireworkOverlayFX` | Constructor parameter for `par4` in class `EntityFireworkOverlayFX`. |
+| `p_i46357_6_` | `par6` | `EntityFireworkOverlayFX` | Constructor parameter for `par6` in class `EntityFireworkOverlayFX`. |
+| `p_i46358_1_` | `modelBase` | `ModelRenderer` | Constructor parameter for `modelBase` in class `ModelRenderer`. |
+| `p_i46358_2_` | `texU` | `ModelRenderer` | Constructor parameter for `texU` in class `ModelRenderer`. |
+| `p_i46358_3_` | `texV` | `ModelRenderer` | Constructor parameter for `texV` in class `ModelRenderer`. |
+| `p_i46359_10_` | `scaleFactor` | `ModelBox` | Constructor parameter defining dimension or coordinate `scaleFactor` in `ModelBox`. |
+| `p_i46359_1_` | `modelRenderer` | `ModelBox` | Constructor parameter defining dimension or coordinate `modelRenderer` in `ModelBox`. |
+| `p_i46359_2_` | `texU` | `ModelBox` | Constructor parameter defining dimension or coordinate `texU` in `ModelBox`. |
+| `p_i46359_3_` | `texV` | `ModelBox` | Constructor parameter defining dimension or coordinate `texV` in `ModelBox`. |
+| `p_i46359_4_` | `posX1` | `ModelBox` | Constructor parameter assigned to field `posX1` in class `ModelBox`. |
+| `p_i46359_5_` | `posY1` | `ModelBox` | Constructor parameter assigned to field `posY1` in class `ModelBox`. |
+| `p_i46359_6_` | `posZ1` | `ModelBox` | Constructor parameter assigned to field `posZ1` in class `ModelBox`. |
+| `p_i46359_7_` | `width` | `ModelBox` | Constructor parameter defining dimension or coordinate `width` in `ModelBox`. |
+| `p_i46359_8_` | `height` | `ModelBox` | Constructor parameter defining dimension or coordinate `height` in `ModelBox`. |
+| `p_i46359_9_` | `depth` | `ModelBox` | Constructor parameter defining dimension or coordinate `depth` in `ModelBox`. |
+| `p_i46360_1_` | `par1` | `ModelDragon` | Constructor parameter for `par1` in class `ModelDragon`. |
+| `p_i46361_1_` | `par1` | `ModelWitch` | Constructor parameter for `par1` in class `ModelWitch`. |
+| `p_i46362_1_` | `modelSize` | `ModelIronGolem` | Constructor parameter for `modelSize` in class `ModelIronGolem`. |
+| `p_i46362_2_` | `pivotY` | `ModelIronGolem` | Constructor parameter for `pivotY` in class `ModelIronGolem`. |
+| `p_i46363_1_` | `vector3D` | `PositionTextureVertex` | Constructor parameter assigned to field `vector3D` in class `PositionTextureVertex`. |
+| `p_i46363_2_` | `texturePositionX` | `PositionTextureVertex` | Constructor parameter assigned to field `texturePositionX` in class `PositionTextureVertex`. |
+| `p_i46363_3_` | `texturePositionY` | `PositionTextureVertex` | Constructor parameter assigned to field `texturePositionY` in class `PositionTextureVertex`. |
+| `p_i46364_1_` | `vertexPositions` | `TexturedQuad` | Constructor parameter assigned to field `vertexPositions` in class `TexturedQuad`. |
+| `p_i46365_1_` | `width` | `ModelLeashKnot` | Constructor parameter for `width` in class `ModelLeashKnot`. |
+| `p_i46365_2_` | `height` | `ModelLeashKnot` | Constructor parameter for `height` in class `ModelLeashKnot`. |
+| `p_i46365_3_` | `textureWidth` | `ModelLeashKnot` | Constructor parameter assigned to field `textureWidth` in class `ModelLeashKnot`. |
+| `p_i46365_4_` | `textureHeight` | `ModelLeashKnot` | Constructor parameter assigned to field `textureHeight` in class `ModelLeashKnot`. |
+| `p_i46366_1_` | `par1` | `ModelCreeper` | Constructor parameter for `par1` in class `ModelCreeper`. |
+| `p_i46367_1_` | `par1` | `PreYggdrasilConverter` | Constructor parameter for `par1` in class `PreYggdrasilConverter`. |
+| `p_i46367_2_` | `par2` | `PreYggdrasilConverter` | Constructor parameter for `par2` in class `PreYggdrasilConverter`. |
+| `p_i46367_3_` | `par3` | `PreYggdrasilConverter` | Constructor parameter for `par3` in class `PreYggdrasilConverter`. |
+| `p_i46372_1_` | `serverPropertiesFile` | `PropertyManager` | Constructor parameter assigned to field `serverPropertiesFile` in class `PropertyManager`. |
+| `p_i46373_1_` | `eulaFile` | `ServerEula` | Constructor parameter assigned to field `eulaFile` in class `ServerEula`. |
+| `p_i46378_1_` | `parentScreen` | `GuiFlatPresets` | Constructor parameter assigned to field `parentScreen` in class `GuiFlatPresets`. |
+| `p_i46379_1_` | `mc` | `GuiIngame` | Constructor parameter assigned to field `mc` in class `GuiIngame`. |
+| `p_i46380_1_` | `inventoryPlayer` | `GuiMerchant` | Constructor parameter for `inventoryPlayer` in class `GuiMerchant`. |
+| `p_i46380_2_` | `merchant` | `GuiMerchant` | Constructor parameter assigned to field `merchant` in class `GuiMerchant`. |
+| `p_i46380_3_` | `world` | `GuiMerchant` | Constructor parameter for `world` in class `GuiMerchant`. |
+| `p_i46380_4_` | `chatComponent` | `GuiMerchant` | Constructor parameter assigned to field `chatComponent` in class `GuiMerchant`. |
+| `p_i46381_1_` | `playerInventory` | `GuiRepair` | Constructor parameter assigned to field `playerInventory` in class `GuiRepair`. |
+| `p_i46381_2_` | `world` | `GuiRepair` | Constructor parameter for `world` in class `GuiRepair`. |
+| `p_i46381_3_` | `x` | `GuiRepair` | Constructor parameter for `x` in class `GuiRepair`. |
+| `p_i46381_4_` | `y` | `GuiRepair` | Constructor parameter for `y` in class `GuiRepair`. |
+| `p_i46381_5_` | `z` | `GuiRepair` | Constructor parameter for `z` in class `GuiRepair`. |
+| `p_i46384_1_` | `inventoryPlayer` | `GuiDispenser` | Constructor parameter for `inventoryPlayer` in class `GuiDispenser`. |
+| `p_i46384_2_` | `tileDispenser` | `GuiDispenser` | Constructor parameter assigned to field `tileDispenser` in class `GuiDispenser`. |
+| `p_i46389_1_` | `mc` | `TwitchStream` | Constructor parameter assigned to field `mc` in class `TwitchStream`. |
+| `p_i46389_2_` | `par2` | `TwitchStream` | Constructor parameter for `par2` in class `TwitchStream`. |
+| `p_i46391_1_` | `direction` | `MessageSerializer` | Constructor parameter assigned to field `direction` in class `MessageSerializer`. |
+| `p_i46392_1_` | `fontRendererInstance` | `GuiTextField` | Constructor parameter assigned to field `fontRendererInstance` in class `GuiTextField`. |
+| `p_i46392_2_` | `xPosition` | `GuiTextField` | Constructor parameter assigned to field `xPosition` in class `GuiTextField`. |
+| `p_i46392_3_` | `yPosition` | `GuiTextField` | Constructor parameter assigned to field `yPosition` in class `GuiTextField`. |
+| `p_i46392_4_` | `width` | `GuiTextField` | Constructor parameter assigned to field `width` in class `GuiTextField`. |
+| `p_i46392_5_` | `height` | `GuiTextField` | Constructor parameter assigned to field `height` in class `GuiTextField`. |
+| `p_i46395_1_` | `par1` | `ServerData` | Constructor parameter for `par1` in class `ServerData`. |
+| `p_i46395_2_` | `par2` | `ServerData` | Constructor parameter for `par2` in class `ServerData`. |
+| `p_i46395_3_` | `lanServer` | `ServerData` | Constructor parameter assigned to field `lanServer` in class `ServerData`. |
+| `p_i46397_1_` | `inventoryPlayer` | `GuiCrafting` | Constructor parameter for `inventoryPlayer` in class `GuiCrafting`. |
+| `p_i46397_2_` | `world` | `GuiCrafting` | Constructor parameter for `world` in class `GuiCrafting`. |
+| `p_i46397_3_` | `x` | `GuiCrafting` | Constructor parameter for `x` in class `GuiCrafting`. |
+| `p_i46397_4_` | `y` | `GuiCrafting` | Constructor parameter for `y` in class `GuiCrafting`. |
+| `p_i46397_5_` | `z` | `GuiCrafting` | Constructor parameter for `z` in class `GuiCrafting`. |
+| `p_i46398_1_` | `inventoryPlayer` | `GuiEnchantment` | Constructor parameter for `inventoryPlayer` in class `GuiEnchantment`. |
+| `p_i46398_2_` | `world` | `GuiEnchantment` | Constructor parameter for `world` in class `GuiEnchantment`. |
+| `p_i46398_3_` | `x` | `GuiEnchantment` | Constructor parameter for `x` in class `GuiEnchantment`. |
+| `p_i46398_4_` | `y` | `GuiEnchantment` | Constructor parameter for `y` in class `GuiEnchantment`. |
+| `p_i46398_5_` | `z` | `GuiEnchantment` | Constructor parameter for `z` in class `GuiEnchantment`. |
+| `p_i46398_6_` | `name` | `GuiEnchantment` | Constructor parameter assigned to field `name` in class `GuiEnchantment`. |
+| `p_i46399_1_` | `totalBytes` | `NetworkStatistics` | Constructor parameter assigned to field `totalBytes` in class `NetworkStatistics`. |
+| `p_i46399_3_` | `count` | `NetworkStatistics` | Constructor parameter assigned to field `count` in class `NetworkStatistics`. |
+| `p_i46399_4_` | `averageBytes` | `NetworkStatistics` | Constructor parameter assigned to field `averageBytes` in class `NetworkStatistics`. |
+| `p_i46400_1_` | `anvilFile` | `MinecraftServer` | Constructor parameter assigned to field `anvilFile` in class `MinecraftServer`. |
+| `p_i46400_2_` | `serverProxy` | `MinecraftServer` | Constructor parameter assigned to field `serverProxy` in class `MinecraftServer`. |
+
+
 # Full Index
 
 This is a complete list of all mapped fields and methods for the funny block game, organized by class.
